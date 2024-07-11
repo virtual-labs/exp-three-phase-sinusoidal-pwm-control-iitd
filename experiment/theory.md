@@ -35,3 +35,45 @@ Fig. 2. 3-phase Sinusoidal PWM
 
 </center>
 <br>
+
+- The objective in pulse-width-modulated three-phase inverters is to shape and control the three-phase output voltages in magnitude and frequency with an essentially constant input voltage Vin.
+- In three-phase VSIs, the switches of any leg of the inverter (S1 and S4, S1 and S4, S1 and S4) cannot be switched ON simultaneously because this would result in short circuit across the DC supply.
+- In order to generate a given voltage waveform, the inverter moves from one state to another. Thus the resulting ac output line voltages consist of discrete values of voltages that are Vin, 0 and –Vin.
+- In Sine PWM, in order to produce 120o out-of-phase load voltages, three modulating signals that are 120o out of phase are used.
+- In the three-phase inverters, only the harmonics in the line-to-line voltages are of concern. The harmonics in the output of any one of the legs, where only the odd harmonics exist as sidebands, centered around mf  and its multiples, provided mf is odd.
+- For low values of mf, to eliminate the even harmonics, a synchronized PWM should be used and mf should be an odd integer. Moreover, mf should be a multiple of 3 to cancel out the most dominant harmonics in the line-to-line voltage.
+- In the linear region, the fundamental-frequency component in the output voltage varies linearly with the amplitude modulation ratio ma
+- the peak value of the fundamental-frequency component in one of the inverter legs is
+
+<br>
+<div style="float: left; width:50%;">
+  <img src="images/th3.png" height="65px">
+</div>
+<div style="float: right; width:50%; text-align:center;">
+    ..(1)
+</div>
+<br>
+
+- Therefore, the line-to-line rms voltage at the fundamental frequency, due to 120" phase displacement between phase voltages, can be written as
+
+<br>
+<div style="float: left; width:50%;">
+  <img src="images/th4.png" height="65px">
+      </div>
+<div style="float: right; width:50%; text-align:center;">
+    ..(2)
+
+</div>
+
+<div style="float: left; width:100%;">
+&nbsp;
+</div>
+
+<div style="float: left; width:50%;">
+  <img src="images/th5.png" height="65px">
+      </div>
+<div style="float: right; width:50%; text-align:center;">
+    ..(3)
+
+</div>
+<sub>1</sub>
