@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+      "question": "Answer the questions given below (refer Fig.1):<br> <center> <img src='images/pre1.png' height='300px'><br><br>Fig. 1 Circuit diagram of three-phase bridge inverter</center><br><br> 1. What are the full forms of CSI and VSI?",
+      "answers": {        
+        "a": "Constant source Inverter and Variable Source Inverter",
+        "b": "Constant Source Inverter and Voltage Source Inverter",
+        "c": "Current Source Inverter and Variable Source Inverter",
+        "d": "Current Source Inverter and Voltage Source Inverter"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -15,16 +15,17 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
+      
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2. How many switches in three phase inverter are in “ON” state simultaneously?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "2",
+        "b": "3",
+        "c": "4",
+        "d": "5"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -32,7 +33,62 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    
+    {
+      "question": "3. In the sinusoidal pulse width modulation, select the correct carrier signal",
+      "answers": {
+        "a": "square wave",
+        "b": "triangular wave",
+        "c": "sinusoidal wave ",
+        "d": "quasi-square wave"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+        
+    {
+      "question": "4. In sinusoidal pulse width modulation, the comparator output is high when the",
+      "answers": {
+        "a": "triangular wave has magnitude higher than the sinusoidal wave ",
+        "b": "sinusoidal wave has magnitude higher than triangular wave",
+        "c": "triangular wave has magnitude equal to the sinusoidal wave",
+        "d": "none of the above"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    
+    {
+      
+      "question": "5. Which of the following switches should NOT be turned ON simultaneously?",
+      "answers": {
+        "a": "S<sub>1</sub>, S<sub>2</sub> and S<sub>6</sub>",
+        "b": "S<sub>2</sub> ,S<sub>3</sub> and S<sub>4</sub>",
+        "c": "S<sub>3</sub> ,S<sub>4</sub> and S<sub>5</sub>",
+        "d": "S<sub>1</sub>, S<sub>4</sub> and S<sub>5</sub>"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
       "difficulty": "beginner"
     }
   ]
