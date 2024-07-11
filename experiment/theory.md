@@ -10,7 +10,7 @@
   
 #### SIX-STEP VSI: 180&#176; CONDUCTION MODE<br>
 
-  <img src="images/th1.png" height="350px">
+  <img src="images/th1.png" height="530px">
   
 Fig. 1.  180&#176; Mode of Conduction
 
@@ -29,7 +29,7 @@ Fig. 1.  180&#176; Mode of Conduction
 
 #### 3-PHASE SINUSOIDAL PWM<br>
 
-  <img src="images/th2.png" height="350px">
+  <img src="images/th2.png" height="530px">
   
 Fig. 2. 3-phase Sinusoidal PWM
 
