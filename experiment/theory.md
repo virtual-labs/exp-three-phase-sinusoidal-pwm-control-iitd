@@ -1,6 +1,6 @@
 ### Theory
 
-- An inverter is a power electronic conversion circuit which converts DC supply into AC. Therefore, three-phase inverter converts DC into three-phase AC.
+- An inverter is a power electronic conversion circuit which converts DC supply into AC. Therefore, three-phase inverter converts DC into three-phase AC [2].
 - Single-phase VSI<sub>s</sub> cover low-range power applications and three-phase VSI<sub>s</sub> cover the medium- to high-power applications.
 - The main purpose of these topologies is to provide a three-phase voltage source, where the amplitude, phase, and frequency of the voltages should always be controllable.
 - The standard three-phase VSI topology has eight valid switching states.
@@ -18,7 +18,7 @@ Fig. 1.  180&#176; Mode of Conduction
 <br>
 
 
-- In the three-phase inverter, each switch conducts for 180o of a cycle. Switch pair in each arm, i.e. S<sub>1</sub>, S<sub>4</sub>; S<sub>3</sub>, S<sub>6</sub> and S<sub>5</sub>, S<sub>4</sub> are turned ON with a time interval of 180&#176;
+- In the three-phase inverter, each switch conducts for 180&#176; of a cycle. Switch pair in each arm, i.e. S<sub>1</sub>, S<sub>4</sub>; S<sub>3</sub>, S<sub>6</sub> and S<sub>5</sub>, S<sub>4</sub> are turned ON with a time interval of 180&#176; [4]
 - It means that S<sub>1</sub> conducts for 180&#176; and S<sub>4</sub> conducts for the next 180&#176; of a cycle.
 - Switches in the upper group, i.e. S<sub>1</sub>, S<sub>3</sub>, S<sub>5</sub> conduct at an interval of 120&#176;. It implies that if S<sub>1</sub> is fired at wt=0&#176;, then S<sub>3</sub> must be fired at wt=120&#176; and S<sub>5</sub> at wt=240&#176;. Same is true for lower group of switches.
 - Each switch conducts for 180&#176; in each cycle i.e. for half of cycle.
