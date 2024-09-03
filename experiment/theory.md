@@ -56,7 +56,7 @@ Fig. 2. 3-phase Sinusoidal PWM
 
 <div style="float: left; width:100%;"><br>
   
-- Therefore, the line-to-line rms voltage at the fundamental frequency, due to 120&#176; phase displacement between phase voltages, can be written as
+- Therefore, the line-to-line rms voltage at the fundamental frequency, due to 120&#176; phase displacement between phase voltages, can be written as [1]
 
 </div>
 
