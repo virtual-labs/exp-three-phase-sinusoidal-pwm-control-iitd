@@ -217,7 +217,12 @@ part_2_select_option_3:this.allImgsDom[180],
 graph_legends_1:this.allImgsDom[181],
 graph_legends_2:this.allImgsDom[182],
 buffer_back:this.allImgsDom[183],
- 
+btn_hint:this.allImgsDom[184],
+hint_box:this.allImgsDom[185],
+hw_result_1_1:this.allImgsDom[186],
+hw_result_1_2:this.allImgsDom[187],
+hw_result_menu:this.allImgsDom[188],
+mask:this.allImgsDom[189],
 
 
 

@@ -3,12 +3,12 @@ def html(name):
     return '''
      <img
         class="main-window-imgs"
-        src="./src/images/EE17/{0}"
+        src="./src/images/new/{0}"
     />
     '''.format(name)
 
-def src(name :str):
-    return name[0:name.find('.')] + ":this.allImgsDom[index++],\n"
+def src(name :str, count = "index++"):
+    return name[0:name.find('.')] + f":this.allImgsDom[{count}],\n"
 
 
 def dom(name):
@@ -17,10 +17,16 @@ def dom(name):
 
 
 sneha_folder_path = "E:\\office project\\vlabs-EE\\EE17\\src\\images\\EE17\\"
+utkarsh_folder_path = "C:\\Users\\Predator Helios\\Documents\\Office Work\\local\\vlabs-EE\\EE17\\src\\images\\new\\"
+
+# index count
+count = 186
+# count = "index++"
 
 # utkarsh_folder_path = "S:\\Users\\Utkarsh\\Documents\\Office Main\\All Projects Repo\\vlabs-EE\\EE4\\src\\images\\exp4\\part2\\"
 
-names = os.listdir(sneha_folder_path)
+# names = os.listdir(sneha_folder_path)
+names = os.listdir(utkarsh_folder_path)
 
 # namesStr = ''
 # for name in names:
@@ -37,7 +43,8 @@ htms = ''
 for i in range(len(names)):
     htms = htms + html(names[i])
     doms = doms + dom(names[i])
-    srcs = srcs + src(names[i])
+    srcs = srcs + src(names[i], count)
+    count += 1
 
         
 
