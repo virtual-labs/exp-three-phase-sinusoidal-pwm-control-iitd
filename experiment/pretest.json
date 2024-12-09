@@ -65,8 +65,7 @@
       },
       "explanations": {
         "a": "Explanation 1",
-        "b": "Explanation 2: In Sinusoidal Pulse Width Modulation (SPWM), the comparator output is HIGH when:<br>
-V<sub>reference</sub> > V<sub>carrier</sub>",
+        "b": "Explanation 2: In Sinusoidal Pulse Width Modulation (SPWM), the comparator output is HIGH when:<br>V<sub>reference</sub> > V<sub>carrier</sub>",
         "c": "Explanation 3",
         "d": "Explanation 4"
       },
