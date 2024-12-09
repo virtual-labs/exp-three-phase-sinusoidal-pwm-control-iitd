@@ -63,7 +63,7 @@
             "explanations": {
                 "a": "Explanation 1",
                 "b": "Explanation 2",
-                "c": "Explanation 3: 2 switches for Phase A (one for the upper side and one for the lower side).<br>2 switches for Phase B.<br>2 switches for Phase C.<br>Thus, the total number of switches required is:<br><br>2×3=6 switches",
+                "c": "Explanation 3: <br>2 switches for Phase A (one for the upper side and one for the lower side).<br>2 switches for Phase B.<br>2 switches for Phase C.<br>Thus, the total number of switches required is:<br>2×3=6 switches",
                 "d": "Explanation 4"
             },
             "correctAnswer": "c",
