@@ -10,10 +10,10 @@
         "d": "Only even order harmonics"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1",
         "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "c": "Explanation 3: The output contains odd harmonics (3<sup>rd</sup>, 5<sup>th</sup>, 7<sup>th</sup>, etc.) because a square wave is symmetric and lacks even harmonics. Triplen harmonics (3<sup>rd</sup>, 9<sup>th</sup>, 15<sup>th</sup>, etc.) cancel out in a balanced three-phase system.",
+        "d": "Explanation 4"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
@@ -28,12 +28,12 @@
         "d": "Sun of carrier and reference signal frequency (f<sub>c</sub>+f<sub>r</sub>)"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Explanation 1",
+        "b": "Explanation 2: In a three-phase inverter, the load voltage frequency is determined by the frequency of the reference signal.",
+        "c": "Explanation 3",
+        "d": "Explanation 4"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     
@@ -46,10 +46,10 @@
         "d": "an inductor in parallel with the load"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1",
         "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "c": "Explanation 3: The supply voltage in an inverter is typically maintained constant by placing a DC-link capacitor across the DC bus.",
+        "d": "Explanation 4"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
@@ -64,10 +64,14 @@
         "d": "8"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1",
         "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "c": "Explanation 3: 2 switches for Phase A (one for the upper side and one for the lower side).<br>
+2 switches for Phase B.<br>
+2 switches for Phase C.<br>
+Thus, the total number of switches required is:<br><br>
+2×3=6 switches",
+        "d": "Explanation 4"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
@@ -83,10 +87,10 @@
         "d": "Voltage control and harmonic reduction"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1",
         "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "c": "Explanation 3",
+        "d": "Explanation 4: The pulse width modulation (PWM) control technique in inverters is used to realize variable frequency variable output voltage."
       },
       "correctAnswer": "d",
       "difficulty": "beginner"
