@@ -1,99 +1,90 @@
 {
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "Answer the questions given below (refer Fig.2):<br> <center> <img src='images/pos1.png' height='300px'><br><br>Fig. 2 Circuit diagram of three-phase bridge inverter</center><br><br> 1. In a three-phase inverter operating in square wave mode, the output voltage waveform contains",
-      "answers": {        
-        "a": "Both even and odd harmonics but no triplen harmonics",
-        "b": "Only triplen order harmonics",
-        "c": "Only odd order harmonics",
-        "d": "Only even order harmonics"
-      },
-      "explanations": {
-        "a": "Explanation 1",
-        "b": "Explanation 2",
-        "c": "Explanation 3: The output contains odd harmonics (3<sup>rd</sup>, 5<sup>th</sup>, 7<sup>th</sup>, etc.) because a square wave is symmetric and lacks even harmonics. Triplen harmonics (3<sup>rd</sup>, 9<sup>th</sup>, 15<sup>th</sup>, etc.) cancel out in a balanced three-phase system.",
-        "d": "Explanation 4"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    },
-      
-    {
-      "question": "2. The load voltage frequency is equal to ",
-      "answers": {
-        "a": "Carrier signal frequency (f<sub>c</sub>)",
-        "b": "Reference signal frequency (f<sub>r</sub>)",
-        "c": "Difference of carrier and reference signal frequency (f<sub>c</sub>-f<sub>r</sub>)",
-        "d": "Sun of carrier and reference signal frequency (f<sub>c</sub>+f<sub>r</sub>)"
-      },
-      "explanations": {
-        "a": "Explanation 1",
-        "b": "Explanation 2: In a three-phase inverter, the load voltage frequency is determined by the frequency of the reference signal.",
-        "c": "Explanation 3",
-        "d": "Explanation 4"
-      },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
-    },
-    
-    {
-      "question": "3. The supply voltage is maintained constant in inverter by placing",
-      "answers": {
-        "a": "an inductor in series with the load",
-        "b": "capacitor in parallel to the load side",
-        "c": "capacitor in parallel to the supply side",
-        "d": "an inductor in parallel with the load"
-      },
-      "explanations": {
-        "a": "Explanation 1",
-        "b": "Explanation 2",
-        "c": "Explanation 3: The supply voltage in an inverter is typically maintained constant by placing a DC-link capacitor across the DC bus.",
-        "d": "Explanation 4"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    },
-        
-    {
-      "question": "4. In a three-phase inverter, how many minimum number of switching devices are required?",
-      "answers": {
-        "a": "3 ",
-        "b": "4",
-        "c": "6",
-        "d": "8"
-      },
-      "explanations": {
-        "a": "Explanation 1",
-        "b": "Explanation 2",
-        "c": "Explanation 3: 2 switches for Phase A (one for the upper side and one for the lower side).<br>
-2 switches for Phase B.<br>
-2 switches for Phase C.<br>
-Thus, the total number of switches required is:<br><br>
-2×3=6 switches",
-        "d": "Explanation 4"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    },
-    
-    {
-      
-      "question": "5. The pulse width modulation control technique in inverters is used for ",
-      "answers": {
-        "a": "Voltage control",
-        "b": "Frequency control",
-        "c": "harmonic reduction",
-        "d": "Voltage control and harmonic reduction"
-      },
-      "explanations": {
-        "a": "Explanation 1",
-        "b": "Explanation 2",
-        "c": "Explanation 3",
-        "d": "Explanation 4: The pulse width modulation (PWM) control technique in inverters is used to realize variable frequency variable output voltage."
-      },
-      "correctAnswer": "d",
-      "difficulty": "beginner"
-    }
-  ]
+    "version": 2,
+    "questions": [
+        {
+            "question": "Answer the questions given below (refer Fig.2):<br> <center> <img src='images/pos1.png' height='300px'><br><br>Fig. 2 Circuit diagram of three-phase bridge inverter</center><br><br> 1. In a three-phase inverter operating in square wave mode, the output voltage waveform contains",
+            "answers": {
+                "a": "Both even and odd harmonics but no triplen harmonics",
+                "b": "Only triplen order harmonics",
+                "c": "Only odd order harmonics",
+                "d": "Only even order harmonics"
+            },
+            "explanations": {
+                "a": "Explanation 1",
+                "b": "Explanation 2",
+                "c": "Explanation 3: The output contains odd harmonics (3<sup>rd</sup>, 5<sup>th</sup>, 7<sup>th</sup>, etc.) because a square wave is symmetric and lacks even harmonics. Triplen harmonics (3<sup>rd</sup>, 9<sup>th</sup>, 15<sup>th</sup>, etc.) cancel out in a balanced three-phase system.",
+                "d": "Explanation 4"
+            },
+            "correctAnswer": "c",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "2. The load voltage frequency is equal to ",
+            "answers": {
+                "a": "Carrier signal frequency (f<sub>c</sub>)",
+                "b": "Reference signal frequency (f<sub>r</sub>)",
+                "c": "Difference of carrier and reference signal frequency (f<sub>c</sub>-f<sub>r</sub>)",
+                "d": "Sun of carrier and reference signal frequency (f<sub>c</sub>+f<sub>r</sub>)"
+            },
+            "explanations": {
+                "a": "Explanation 1",
+                "b": "Explanation 2: In a three-phase inverter, the load voltage frequency is determined by the frequency of the reference signal.",
+                "c": "Explanation 3",
+                "d": "Explanation 4"
+            },
+            "correctAnswer": "b",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "3. The supply voltage is maintained constant in inverter by placing",
+            "answers": {
+                "a": "an inductor in series with the load",
+                "b": "capacitor in parallel to the load side",
+                "c": "capacitor in parallel to the supply side",
+                "d": "an inductor in parallel with the load"
+            },
+            "explanations": {
+                "a": "Explanation 1",
+                "b": "Explanation 2",
+                "c": "Explanation 3: The supply voltage in an inverter is typically maintained constant by placing a DC-link capacitor across the DC bus.",
+                "d": "Explanation 4"
+            },
+            "correctAnswer": "c",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "4. In a three-phase inverter, how many minimum number of switching devices are required?",
+            "answers": {
+                "a": "3 ",
+                "b": "4",
+                "c": "6",
+                "d": "8"
+            },
+            "explanations": {
+                "a": "Explanation 1",
+                "b": "Explanation 2",
+                "c": "Explanation 3: 2 switches for Phase A (one for the upper side and one for the lower side).<br>2 switches for Phase B.<br>2 switches for Phase C.<br>Thus, the total number of switches required is:<br><br>2×3=6 switches",
+                "d": "Explanation 4"
+            },
+            "correctAnswer": "c",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "5. The pulse width modulation control technique in inverters is used for ",
+            "answers": {
+                "a": "Voltage control",
+                "b": "Frequency control",
+                "c": "harmonic reduction",
+                "d": "Voltage control and harmonic reduction"
+            },
+            "explanations": {
+                "a": "Explanation 1",
+                "b": "Explanation 2",
+                "c": "Explanation 3",
+                "d": "Explanation 4: The pulse width modulation (PWM) control technique in inverters is used to realize variable frequency variable output voltage."
+            },
+            "correctAnswer": "d",
+            "difficulty": "beginner"
+        }
+    ]
 }
