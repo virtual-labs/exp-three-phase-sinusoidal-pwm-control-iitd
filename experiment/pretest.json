@@ -29,9 +29,7 @@
       },
       "explanations": {
         "a": "Explanation 1",
-        "b": "Explanation 2: At any given time, three switches are ON:<br>
-• One from the upper group (S<sub>1</sub>, S<sub>3</sub>, S<sub>5</sub>).<br>
-• Two from the lower group (S<sub>2</sub>, S<sub>4</sub>, S<sub>6</sub>), or vice versa.",
+        "b": "Explanation 2: At any given time, three switches are ON:<br>• One from the upper group (S<sub>1</sub>, S<sub>3</sub>, S<sub>5</sub>).<br>• Two from the lower group (S<sub>2</sub>, S<sub>4</sub>, S<sub>6</sub>), or vice versa.",
         "c": "Explanation 3",
         "d": "Explanation 4"
       },
