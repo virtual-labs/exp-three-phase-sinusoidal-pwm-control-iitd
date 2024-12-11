@@ -277,7 +277,7 @@ Fig. 4.  3-phase Sinusoidal PWM
 </div>
 
 <br>
-
+<div style="float: left; width:100%;">
 
 - The objective in pulse-width-modulated three-phase inverters is to shape and control the three-phase output voltages in magnitude and frequency with an essentially constant input voltage V<sub>in</sub>.
 - In three-phase VSI<sub>s</sub>, the switches of any leg of the inverter (S<sub>1</sub> and S<sub>4</sub>, S<sub>1</sub> and S<sub>4</sub>, S<sub>1</sub> and S<sub>4</sub>) cannot be switched ON simultaneously because this would result in short circuit across the DC supply.
@@ -287,7 +287,7 @@ Fig. 4.  3-phase Sinusoidal PWM
 - For low values of m<sub>f</sub>, to eliminate the even harmonics, a synchronized PWM should be used and m<sub>f</sub> should be an odd integer. Moreover, m<sub>f</sub> should be a multiple of 3 to cancel out the most dominant harmonics in the line-to-line voltage.
 - In the linear region, the fundamental-frequency component in the output voltage varies linearly with the amplitude modulation ratio m<sub>a</sub>
 - the peak value of the fundamental-frequency component in one of the inverter legs is
-
+</div>
 <br>
 <div style="float: left; width:50%;">
   <img src="images/thup19.png" height="65px">
