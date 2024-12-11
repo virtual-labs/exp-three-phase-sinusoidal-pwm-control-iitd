@@ -7,12 +7,12 @@
 
 
 <center>
-  
+
 #### SIX-STEP VSI: 180&#176; CONDUCTION MODE<br>
 
   <img src="images/th1.png" height="530px">
   
-Fig. 1.  180&#176; Mode of Conduction
+Fig. 1. 180&#176; Mode of Conduction
 
 </center>
 <br>
@@ -29,12 +29,255 @@ Fig. 1.  180&#176; Mode of Conduction
 
 #### 3-PHASE SINUSOIDAL PWM<br>
 
-  <img src="images/th2.png" height="530px">
+  <img src="images/thup2.png" height="300px"><br>
   
-Fig. 2. 3-phase Sinusoidal PWM
+Fig. 2.  Y-connected load
 
 </center>
 <br>
+
+<center>
+
+#### 3-PHASE SINUSOIDAL PWM<br>
+
+  <img src="images/th2.png" height="530px"><br>
+  
+Fig. 3.  180&#176; Mode of Conduction
+
+</center>
+<br>
+
+<div style="float: left; width:100%;"><br>
+  
+During mode-1 for 0<wt<60&#176;, switch S<sub>1</sub>, S<sub>5</sub> and S<sub>6</sub> conduct, for Y-connected load
+
+</div><br>
+
+<div style="float: left; width:50%;">
+  <img src="images/thup3.png" height="65px">
+</div>
+<div style="float: right; width:50%; text-align:center;">
+    ..(1)
+</div>
+<br>
+
+<div style="float: left; width:100%;">
+&nbsp;
+</div>
+
+<div style="float: left; width:50%;">
+  <img src="images/thup4.png" height="65px">
+      </div>
+<div style="float: right; width:50%; text-align:center;">
+    ..(2)
+
+</div>
+
+<div style="float: left; width:100%;">
+&nbsp;
+</div>
+
+<div style="float: left; width:50%;">
+  <img src="images/thup5.png" height="65px">
+      </div>
+<div style="float: right; width:50%; text-align:center;">
+    ..(3)
+
+</div>
+
+<div style="float: left; width:100%;">
+&nbsp;
+</div>
+
+<div style="float: left; width:50%;">
+  <img src="images/thup6.png" height="65px">
+      </div>
+<div style="float: right; width:50%; text-align:center;">
+    ..(4)
+
+</div>
+
+<div style="float: left; width:100%;"><br>
+  
+During mode-2 for 60&#176; <wt<120&#176;, switch S<sub>1</sub>, S<sub>2</sub> and S<sub>6</sub> conduct
+
+</div>
+
+<div style="float: left; width:100%;">
+&nbsp;
+</div>
+
+<div style="float: left; width:50%;">
+  <img src="images/thup7.png" height="65px">
+      </div>
+<div style="float: right; width:50%; text-align:center;">
+    ..(5)
+
+</div>
+
+<div style="float: left; width:100%;">
+&nbsp;
+</div>
+
+<div style="float: left; width:50%;">
+  <img src="images/thup8.png" height="65px">
+      </div>
+<div style="float: right; width:50%; text-align:center;">
+    ..(6)
+
+</div>
+
+<div style="float: left; width:100%;">
+&nbsp;
+</div>
+
+<div style="float: left; width:50%;">
+  <img src="images/thup9.png" height="65px">
+      </div>
+<div style="float: right; width:50%; text-align:center;">
+    ..(7)
+
+</div>
+
+<div style="float: left; width:100%;">
+&nbsp;
+</div>
+
+<div style="float: left; width:50%;">
+  <img src="images/thup10.png" height="65px">
+      </div>
+<div style="float: right; width:50%; text-align:center;">
+    ..(8)
+
+</div>
+
+<div style="float: left; width:100%;"><br>
+During mode-3 for 120&#176; <wt<180&#176;, switch S<sub>1</sub>, S<sub>2</sub> and S<sub>3</sub> conduct
+
+</div>
+
+<div style="float: left; width:100%;">
+&nbsp;
+</div>
+
+<div style="float: left; width:50%;">
+  <img src="images/thup11.png" height="65px">
+      </div>
+<div style="float: right; width:50%; text-align:center;">
+    ..(9)
+
+</div>
+
+<div style="float: left; width:100%;">
+&nbsp;
+</div>
+
+<div style="float: left; width:50%;">
+  <img src="images/thup12.png" height="65px">
+      </div>
+<div style="float: right; width:50%; text-align:center;">
+    ..(10)
+
+</div>
+
+<div style="float: left; width:100%;">
+&nbsp;
+</div>
+
+<div style="float: left; width:50%;">
+  <img src="images/thup13.png" height="65px">
+      </div>
+<div style="float: right; width:50%; text-align:center;">
+    ..(11)
+
+</div>
+
+<div style="float: left; width:100%;">
+&nbsp;
+</div>
+
+<div style="float: left; width:50%;">
+  <img src="images/thup14.png" height="65px">
+      </div>
+<div style="float: right; width:50%; text-align:center;">
+    ..(12)
+
+</div>
+
+<div style="float: left; width:100%;">
+The line to neutral voltages are shown in Fig.2. The instantaneous line to line voltage v<sub>ab</sub> can be expressed in a Fourier series,
+</div>
+
+<div style="float: left; width:50%;">
+  <img src="images/thup15.png" height="65px">
+      </div>
+<div style="float: right; width:50%; text-align:center;">
+    ..(13)
+
+</div>
+
+<div style="float: left; width:100%;">
+Due to the quarter wave symmetry along the x-axis, both a0 and an are zero. Assuming symmetry along the y-axis at wt=30, b<sub>n</sub> as
+</div>
+
+<div style="float: left; width:50%;">
+  <img src="images/thup16.png" height="65px">
+      </div>
+<div style="float: right; width:50%; text-align:center;">
+    ..(14)
+
+</div>
+
+<div style="float: left; width:100%;">
+Which, recognizing that v<sub>ab</sub> is phase shifted by 30&#176; and the even harmonics are zero, gives the instantaneous line-to-line voltage v<sub>ab</sub> as
+</div>
+
+<div style="float: left; width:50%;">
+  <img src="images/thup16.png" height="65px">
+      </div>
+<div style="float: right; width:50%; text-align:center;">
+    ..(14)
+
+</div>
+
+<div style="float: left; width:100%;">
+Which, recognizing that v<sub>ab</sub> is phase shifted by 30&#176; and the even harmonics are zero, gives the instantaneous line-to-line voltage v<sub>ab</sub> as
+</div>
+
+<div style="float: left; width:50%;">
+  <img src="images/thup17.png" height="65px">
+      </div>
+<div style="float: right; width:50%; text-align:center;">
+    ..(15)
+
+</div>
+
+<div style="float: left; width:100%;">
+The r.m.s n<sub>th</sub> component of the line voltage is
+</div>
+
+<div style="float: left; width:50%;">
+  <img src="images/thup18.png" height="65px">
+      </div>
+<div style="float: right; width:50%; text-align:center;">
+    ..(16)
+
+</div>
+
+<div style="float: left; width:100%;">
+<center>
+
+#### 3-PHASE SINUSOIDAL PWM<br>
+
+  <img src="images/th2.png" height="530px"><br>
+  
+Fig. 4.  3-phase Sinusoidal PWM
+
+</center>
+</div>
+
+<br>
+
 
 - The objective in pulse-width-modulated three-phase inverters is to shape and control the three-phase output voltages in magnitude and frequency with an essentially constant input voltage V<sub>in</sub>.
 - In three-phase VSI<sub>s</sub>, the switches of any leg of the inverter (S<sub>1</sub> and S<sub>4</sub>, S<sub>1</sub> and S<sub>4</sub>, S<sub>1</sub> and S<sub>4</sub>) cannot be switched ON simultaneously because this would result in short circuit across the DC supply.
@@ -47,25 +290,23 @@ Fig. 2. 3-phase Sinusoidal PWM
 
 <br>
 <div style="float: left; width:50%;">
-  <img src="images/th3.png" height="65px">
+  <img src="images/thup19.png" height="65px">
 </div>
 <div style="float: right; width:50%; text-align:center;">
-    ..(1)
+    ..(17)
 </div>
 <br>
 
-<div style="float: left; width:100%;"><br>
-  
-- Therefore, the line-to-line rms voltage at the fundamental frequency, due to 120&#176; phase displacement between phase voltages, can be written as [1]
-
+<div style="float: left; width:100%;">
+- Therefore, the line-to-line rms voltage at the fundamental frequency, due to 120" phase displacement between phase voltages, can be written as [1]
 </div>
 
 <br>
 <div style="float: left; width:50%;">
-  <img src="images/th4.png" height="65px">
+  <img src="images/thup20.png" height="65px">
       </div>
 <div style="float: right; width:50%; text-align:center;">
-    ..(2)
+    ..(18)
 
 </div>
 
@@ -74,10 +315,9 @@ Fig. 2. 3-phase Sinusoidal PWM
 </div>
 
 <div style="float: left; width:50%;">
-  <img src="images/th5.png" height="65px">
+  <img src="images/thup21.png" height="65px">
       </div>
 <div style="float: right; width:50%; text-align:center;">
-    ..(3)
+    ..(19)
 
 </div>
-</sub>
