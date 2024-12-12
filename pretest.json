@@ -1,0 +1,95 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Answer the questions given below (refer Fig.1):<br> <center> <img src='images/pre1.png' height='300px'><br><br>Fig. 1 Circuit diagram of three-phase bridge inverter</center><br><br> 1. What are the full forms of CSI and VSI?",
+      "answers": {        
+        "a": "Constant source Inverter and Variable Source Inverter",
+        "b": "Constant Source Inverter and Voltage Source Inverter",
+        "c": "Current Source Inverter and Variable Source Inverter",
+        "d": "Current Source Inverter and Voltage Source Inverter"
+      },
+      "explanations": {
+        "a": "Explanation 1",
+        "b": "Explanation 2",
+        "c": "Explanation 3",
+        "d": "Explanation 4: <b>CSI:</b> Current Source Inverter, <b>VSI:</b> Voltage Source Inverter"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+      
+    {
+      "question": "2. How many switches in three phase inverter are in “ON” state simultaneously?",
+      "answers": {
+        "a": "2",
+        "b": "3",
+        "c": "4",
+        "d": "5"
+      },
+      "explanations": {
+        "a": "Explanation 1",
+        "b": "Explanation 2: At any given time, three switches are ON:<br>• One from the upper group (S<sub>1</sub>, S<sub>3</sub>, S<sub>5</sub>).<br>• Two from the lower group (S<sub>2</sub>, S<sub>4</sub>, S<sub>6</sub>), or vice versa.",
+        "c": "Explanation 3",
+        "d": "Explanation 4"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    
+    {
+      "question": "3. Which of the carrier signal is more suitable for sinusoidal pulse width modulation:",
+      "answers": {
+        "a": "square wave",
+        "b": "triangular wave",
+        "c": "sinusoidal wave ",
+        "d": "quasi-square wave"
+      },
+      "explanations": {
+        "a": "Explanation 1",
+        "b": "Explanation 2: The triangular carrier signal is compared with the sinusoidal reference signal to generate the PWM signals.",
+        "c": "Explanation 3",
+        "d": "Explanation 4"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+        
+    {
+      "question": "4. In sinusoidal pulse width modulation, the comparator output is high when the",
+      "answers": {
+        "a": "triangular wave has magnitude higher than the sinusoidal wave ",
+        "b": "sinusoidal wave has magnitude higher than triangular wave",
+        "c": "triangular wave has magnitude equal to the sinusoidal wave",
+        "d": "none of the above"
+      },
+      "explanations": {
+        "a": "Explanation 1",
+        "b": "Explanation 2: In Sinusoidal Pulse Width Modulation (SPWM), the comparator output is HIGH when:<br>V<sub>reference</sub> > V<sub>carrier</sub>",
+        "c": "Explanation 3",
+        "d": "Explanation 4"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    
+    {
+      
+      "question": "5. In three-phase inverter shown in Fig.1, which of the following switches should NOT be turned ON simultaneously?",
+      "answers": {
+        "a": "S<sub>1</sub>, S<sub>2</sub> and S<sub>6</sub>",
+        "b": "S<sub>2</sub> ,S<sub>3</sub> and S<sub>4</sub>",
+        "c": "S<sub>3</sub> ,S<sub>4</sub> and S<sub>5</sub>",
+        "d": "S<sub>1</sub>, S<sub>4</sub> and S<sub>5</sub>"
+      },
+      "explanations": {
+        "a": "Explanation 1",
+        "b": "Explanation 2",
+        "c": "Explanation 3",
+        "d": "Explanation 4: If S<sub>1</sub> and S<sub>4</sub> are turned ON simultaneously, they will short the input DC supply."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  ]
+}
