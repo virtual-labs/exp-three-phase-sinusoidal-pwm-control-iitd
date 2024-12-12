@@ -321,3 +321,5 @@ Fig. 4.  3-phase Sinusoidal PWM
     ..(19)
 
 </div>
+
+#### ("For more Information on mathematical analysis, see references")
